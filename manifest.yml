@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: osanpo-syashin
+  host: osanpo-syashin
+  disk_quota: 1024M
+  services:
+  - osanpo-syashin-cloudantNoSQLDB
